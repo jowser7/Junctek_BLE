@@ -1,0 +1,11 @@
+{
+  "domain": "Junctek",
+  "name": "Junctek",
+  "codeowners": ["@jowser7","@gtuxyco"],
+  "dependencies": [],
+  "documentation": "https://github.com/jowser7/junctek_pymonitor/blob/main/README.md",
+  "iot_class": "battery",
+  "issue_tracker": "https://github.com/jowser7/junctek/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
