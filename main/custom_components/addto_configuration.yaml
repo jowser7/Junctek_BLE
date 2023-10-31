@@ -1,0 +1,8 @@
+command_line:
+  - sensor:
+      name: Junctek Battery
+      json_attributes:
+        - date
+        - milliseconds_since_epoch
+      command: "python3 /opt/homeassistant/scripts/junctekmonitor.py"
+      value_template: "{{ value_junctek.battery }}"
